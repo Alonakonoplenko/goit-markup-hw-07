@@ -224,6 +224,12 @@ address {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .address-list {
+    gap: 40px;
+  }
+}
+
 .address-item {
 }
 
@@ -1284,9 +1290,10 @@ address {
 }
 
 
-.modal-btn:is(:focus, :hover){
+.modal-close:is(:focus,:hover){
   background-color: var(--ocean-color);
   color: var(--white-color);
+  
 }
 
 .close-icon {
